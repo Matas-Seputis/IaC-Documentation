@@ -11,7 +11,7 @@ Security: GitHub provides security features such as Dependabot for automated dep
 # Authentication to Google Cloud
 When you access Google Cloud services by using the Google Cloud CLI, Cloud Client Libraries, tools that support Application Default Credentials (ADC) like Terraform, or REST requests, use the following diagram:
 
-![GCP Authentication Method diagram](https://github.com/Matas-Seputis/terraform-automation/assets/72572593/f88c9854-d6b0-4503-876f-2a1fe77f36f7)
+![image](https://github.com/Matas-Seputis/IaC-Documentation/assets/72572593/2ed04bb7-03d4-463a-8930-a822e6e4fffc)
 
 Since our code repository is GitHub (external repo) and within the organization development environment - Workload Identity Federation vs. Service Account Keys.
 
@@ -68,7 +68,7 @@ Roles and permissions associated with service accounts can be tightly controlled
 
 # ViaPlay Workflow Explanation:
 
-![image](https://github.com/Matas-Seputis/terraform-automation/assets/72572593/4fe2f242-9296-45ef-a944-21d8d849b6b2)
+![image](https://github.com/Matas-Seputis/IaC-Documentation/assets/72572593/3a3f5b90-2a42-4f5d-acd5-e64598ce6af3)
 
 This diagram illustrates how GitHub Actions can securely interact with Google Cloud resources using Workload Identity Federation.
 
